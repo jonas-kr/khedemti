@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .flexCenter {
+        @apply flex justify-center items-center
+    }
+
+    .flexBetween {
+        @apply flex justify-between items-center
+    }
+
+    .input {
+        @apply w-[100%] outline-none border-[1px] border-black rounded-md text-xl p-2
+    }
+
+    .btn {
+        @apply p-2 my-4 font-medium text-white bg-[#FF6A1E] text-lg w-[100%]
+    }
+    h1{
+        @apply text-3xl font-medium 
+
+    }
+    h2{
+        @apply text-2xl font-medium 
+    }
+    h3{
+        @apply text-xl font-medium 
+
+    }
+    p{
+        @apply text-lg
+    }
+
+}
